@@ -6,8 +6,9 @@ from langchain_community.chat_models.gigachat import GigaChat
 
 # Авторизация в GigaChat
 chat = GigaChat(
-    credentials='NWMwMmQxMTQtMjM0Mi00MGQzLTk0ZWYtOTk1NDY2ODYyZmJiOjViZmQ0MGI2LTY1NTEtNDY1Mi05YTVkLWFkYTQ0MWQzYTlhMQ==',
-    verify_ssl_certs=False
+    credentials='Enter your Key',
+    verify_ssl_certs=False,
+    model='GigaChat-Max'
 )
 
 # Основная функция распознавания вопроса и генерации статьи
